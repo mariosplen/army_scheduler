@@ -1,0 +1,16 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    prefer_const_constructors: true
+    prefer_final_locals: true
+    require_trailing_commas: true
+    always_declare_return_types: true
+    use_super_parameters: true
+    avoid_unnecessary_containers: true
+    use_key_in_widget_constructors: true
+    always_use_package_imports: true
+    prefer_single_quotes: true
+    avoid_print: true
+    no_leading_underscores_for_local_identifiers: true
+    avoid_final_parameters: true
