@@ -6,7 +6,7 @@ duties, while enforcing rules and constraints.
 
 ## Context
 
-In my mandatory service one of my responsibilities was creating the daily schedule for the company.
+In my mandatory military service one of my responsibilities was creating the daily schedule for the Company.
 This was a repetitive and standardized task, and it was done manually using Excel, which was
 time-consuming and prone to human error.
 
@@ -15,21 +15,23 @@ time, while still being backward-compatible with the existing Excel-based workfl
 
 ## Screenshots
 
+>All The names shown in all screenshots are fictional and used for demonstration purposes only.
+
 ### Daily Schedule View
 
 Assign soldiers to guard posts (Σκοποί), dorm guards (Θαλαμοφύλακες), and all other duties for
 each day. The left panel shows the full unit roster with each soldier's monthly duty count.
 
-![Daily Schedule - Guards & Posts](screenshots/app1.png)
+<img src="screenshots/app1.png" width="600"/>
 
-![Daily Schedule - Cleaning & Other Duties](screenshots/app2.png)
+<img src="screenshots/app2.png" width="600"/>
 
 ### Conflict Warnings
 
 The app validates assignments in real time and flags scheduling conflicts — for example, if a
 soldier would end up doing back-to-back 4-hour guard shifts across two consecutive days.
 
-![Conflict Warning](screenshots/warning.png)
+<img src="screenshots/warning.png" width="600"/>
 
 ## Features
 
@@ -51,7 +53,7 @@ The app generates several print-ready PDF documents automatically.
 A complete daily duty roster listing every post, soldier, and time slot — the document that is
 officially announced and posted each day.
 
-![Services Export](screenshots/services_export.png)
+<img src="screenshots/services_export.png" height="500"/>
 
 > **Note:** The export layout is fully customizable. The template is a standard Excel file
 > (`assets/template.xlsx`), so any formatting changes — fonts, column widths, added rows — can be
@@ -62,14 +64,14 @@ officially announced and posted each day.
 An automatically generated roster of all soldiers in the unit, including rank, unit assignment,
 and duty role — ready to hand off to the duty officer.
 
-![Soldiers Export](screenshots/soldiers_export.png)
+<img src="screenshots/soldiers_export.png" height="500"/>
 
 ### Exit Passes (Εξοδόχαρτα)
 
 Individual exit permits are generated for every soldier granted leave for the day, pre-filled with
 name, date, and permitted hours outside camp.
 
-![Exit Passes Export](screenshots/eksodoxoi_export.png)
+<img src="screenshots/eksodouxoi_export.png" height="500"/>
 
 ### Excel Backward Compatibility
 
@@ -77,7 +79,7 @@ All assignments are written back to the master Excel roster — the same file th
 using before this app existed. This means the app fits into the existing workflow with zero
 disruption: anyone can still open the file in LibreOffice or Excel and read or edit it as before.
 
-![Excel Roster](screenshots/excel.png)
+<img src="screenshots/excel.png" width="600"/>
 
 ## Asset Requirements
 
